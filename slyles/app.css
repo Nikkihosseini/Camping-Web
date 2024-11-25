@@ -553,3 +553,35 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+@font-face {
+  font-family: "Roboto Regular";
+
+  src: local("Roboto Regular") , url("../Public/Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Black";
+
+  src: local("Roboto Black") , url("../Public/Fonts/Roboto/Roboto-Black.ttf") format("truetype");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+
+  src: local("Roboto Medium") , url("../Public/Fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo Black";
+
+  src: local("Archivo Black") , url("../Public/Fonts/Archivo/Archivo-Black.ttf") format("truetype");
+
+  font-display: swap;
+}
