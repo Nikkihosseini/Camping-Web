@@ -652,8 +652,16 @@ video {
   top: 0px;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .hidden {
@@ -668,6 +676,10 @@ video {
   height: 50px;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .w-\[1\.8rem\] {
   width: 1.8rem;
 }
@@ -676,8 +688,8 @@ video {
   width: 50px;
 }
 
-.w-64 {
-  width: 16rem;
+.grow {
+  flex-grow: 1;
 }
 
 .transform {
@@ -704,6 +716,20 @@ video {
   border-radius: 1rem;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-white {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+.bg-Zinc-970 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(62 62 62 / var(--tw-bg-opacity, 1));
+}
+
 .bg-orange-750 {
   --tw-bg-opacity: 1;
   background-color: rgb(231 111 81 / var(--tw-bg-opacity, 1));
@@ -719,12 +745,50 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-RobotoRegular {
   font-family: Roboto Regular;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .flex-center{
@@ -750,6 +814,39 @@ video {
   width: 1.8rem;
   height: 0.2rem;
   top: -8px;
+}
+
+.mobile-menu-item{
+  transition: all 150ms ease-in-out 100ms;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-transparent:hover {
+  color: transparent;
+}
+
+.hover\:text-Zinc-970:hover {
+  --tw-text-opacity: 1;
+  color: rgb(62 62 62 / var(--tw-text-opacity, 1));
+}
+
+.child\:mt-4 > * {
+  margin-top: 1rem;
+}
+
+.child\:border > * {
+  border-width: 1px;
+}
+
+.child\:border-white > * {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 @media (min-width: 768px) {
