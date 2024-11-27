@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./slyles/app.css">
     <title>Camping Web</title>
 </head>
-<body class="font-RobotoRegular bg-pink-150">
+<body class="font-RobotoRegular text-Zinc-960 bg-pink-150">
 <!--   Svg   -->
    <svg class="hidden">
 <!--   Svg Icons    -->
@@ -53,35 +53,94 @@
 <!--  App  -->
 
        <!--   Header    -->
-
-       <header class="container pt-8">
-         <!--     Mobile Menu      -->
-             <div class="flex-center justify-between">
-                 <!--     Main Logo      -->
-                 <svg class="w-[50px] h-[50px]">
-                     <use href="#logo"></use>
-                 </svg>
-                 <!--     Hamburger Menu      -->
-                 <div class="hamburger-menu flex-center justify-center bg-white rounded-2xl w-[50px] h-[50px] md:hidden cursor-pointer">
-                     <span class="hamburger-line relative block bg-orange-750 rounded w-[1.8rem] h-[3px]"></span>
-                 </div>
-             </div>
-           <!--     Mobile Menu Item     -->
-           <div class="mobile-menu text-white bg-Zinc-970 fixed -left-64 top-0 bottom-0 w-64 p-8 transition-all">
-               <h2 class="text-2xl border-b-2 border-b-white">Camping Website</h2>
-               <ul class="child:mt-4 transition-all">
-                   <li class="cursor-pointer">Home</li>
-                   <li class="cursor-pointer">Destination</li>
-                   <li class="cursor-pointer">Near me</li>
-                   <li class="cursor-pointer">Events</li>
-                   <li class="cursor-pointer">Blog</li>
-                   <li class="cursor-pointer">Gallery</li>
-                   <li class="cursor-pointer">About</li>
-                   <li class="cursor-pointer">Contact us</li>
-               </ul>
-               <div class="flex mt-8 child:border child:border-white">
-                   <a class="py-2 px-4 grow text-center cursor-pointer hover:bg-white hover:text-Zinc-970 transition-all">Sign up</a>
-                   <a class="py-2 px-4 grow text-center cursor-pointer hover:bg-white hover:text-Zinc-970 transition-all">Sign in</a>
+       <header class="pt-8">
+           <div class="container">
+               <!--     Nav Menu      -->
+               <div class="hidden md:flex items-center justify-between">
+                  <div class="flex-center">
+                      <!--     Main Logo      -->
+                      <svg class="hidden md:block w-[50px] h-[50px] cursor-pointer">
+                          <use href="#logo"></use>
+                      </svg>
+                      <!--     Nav Menu Item     -->
+                      <ul class="flex-center gap-6 xl:gap-10 ml-6 xl:ml-10 text-white text-opacity-80 child:transition-all child:z-10">
+                          <li class="nav-menu__item--active hover:text-white">
+                              <a href="#">Home</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Destination</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Near me</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Events</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Blog</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Gallery</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">About</a>
+                          </li>
+                          <li class="hover:text-white">
+                              <a href="#">Contact us</a>
+                          </li>
+                      </ul>
+                  </div>
+                   <div class="hidden lg:flex text-white">
+                       <a class="py-2 px-4 xl:px-8 grow text-center cursor-pointer">Sign up</a>
+                       <a class="py-2 px-4 xl:px-8 grow text-center cursor-pointer hover:bg-white hover:text-Zinc-970 transition-all border border-white rounded-3xl">Sign in</a>
+                   </div>
+               </div>
+               <!--     Mobile Menu      -->
+               <div class="flex-center justify-between">
+                   <!--     Main Logo      -->
+                   <svg class="block md:hidden w-[50px] h-[50px] cursor-pointer">
+                       <use href="#logo"></use>
+                   </svg>
+                   <!--     Hamburger Menu      -->
+                   <div>
+                       <div class="hamburger-menu flex-center justify-center bg-white rounded-2xl w-[50px] h-[50px] md:hidden cursor-pointer">
+                           <span class="hamburger-line relative block bg-orange-750 rounded w-[1.8rem] h-[3px]"></span>
+                       </div>
+                       <!--     Mobile Menu Item     -->
+                       <div class="mobile-menu md:hidden text-white bg-Zinc-970 fixed -left-64 top-0 bottom-0 w-64 p-8 transition-all">
+                           <h2 class="text-2xl border-b-2 border-b-white">Camping Website</h2>
+                           <ul class="child:mt-4 transition-all">
+                               <li>
+                                    <a href="#">Home</a>
+                               </li>
+                               <li>
+                                    <a href="#">Destination</a>
+                               </li>
+                               <li>
+                                    <a href="#">Near me</a>
+                               </li>
+                               <li>
+                                    <a href="#">Events</a>
+                               </li>
+                               <li>
+                                    <a href="#">Blog</a>
+                               </li>
+                               <li>
+                                    <a href="#">Gallery</a>
+                               </li>
+                               <li>
+                                    <a href="#">About</a>
+                               </li>
+                               <li>
+                                    <a href="#">Contact us</a>
+                               </li>
+                           </ul>
+                           <div class="flex mt-8 child:border child:border-white">
+                               <a class="py-2 px-4 grow text-center cursor-pointer hover:bg-white hover:text-Zinc-970 transition-all">Sign up</a>
+                               <a class="py-2 px-4 grow text-center cursor-pointer hover:bg-white hover:text-Zinc-970 transition-all">Sign in</a>
+                           </div>
+                       </div>
+                   </div>
                </div>
            </div>
        </header>
