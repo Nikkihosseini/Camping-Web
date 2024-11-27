@@ -640,6 +640,10 @@ video {
   position: relative;
 }
 
+.-left-64 {
+  left: -16rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -759,8 +763,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -781,10 +785,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-transparent {
-  color: transparent;
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -796,7 +796,7 @@ video {
   align-items: center;
 }
 
-.hamburger-menu::after{
+.hamburger-line::after{
   content: '';
   position: absolute;
   background-color: #E76F51;
@@ -804,9 +804,10 @@ video {
   width: 1.8rem;
   height: 0.2rem;
   top: 8px;
+  transition: all 150ms ease-in;
 }
 
-.hamburger-menu::before{
+.hamburger-line::before{
   content: '';
   position: absolute;
   background-color: #E76F51;
@@ -814,21 +815,24 @@ video {
   width: 1.8rem;
   height: 0.2rem;
   top: -8px;
+  transition: all 150ms ease-in;
 }
 
-.mobile-menu-item{
-  transition: all 150ms ease-in-out 100ms;
-  position: relative;
-  cursor: pointer;
+.hamburger-menu--open .hamburger-line{
+  background-color: transparent;
+}
+
+.hamburger-menu--open .hamburger-line::after{
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger-menu--open .hamburger-line::before{
+  transform: translateY(8px) rotate(45deg);
 }
 
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:text-transparent:hover {
-  color: transparent;
 }
 
 .hover\:text-Zinc-970:hover {
