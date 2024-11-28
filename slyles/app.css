@@ -665,16 +665,12 @@ video {
   margin-right: auto;
 }
 
-.-mt-80 {
-  margin-top: -20rem;
-}
-
 .ml-6 {
   margin-left: 1.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -683,10 +679,6 @@ video {
 
 .mt-\[-29rem\] {
   margin-top: -29rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .line-clamp-3 {
@@ -736,20 +728,8 @@ video {
   width: 50px;
 }
 
-.min-w-80 {
-  min-width: 20rem;
-}
-
 .max-w-80 {
   max-width: 20rem;
-}
-
-.max-w-96 {
-  max-width: 24rem;
-}
-
-.max-w-\[25rem\] {
-  max-width: 25rem;
 }
 
 .grow {
@@ -878,10 +858,6 @@ video {
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .leading-\[4\.5rem\] {
   line-height: 4.5rem;
 }
@@ -987,6 +963,11 @@ header{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-Zinc-960:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 55 53 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-Zinc-970:hover {
   --tw-text-opacity: 1;
   color: rgb(62 62 62 / var(--tw-text-opacity, 1));
@@ -1033,10 +1014,6 @@ header{
     display: none;
   }
 
-  .md\:max-w-\[25rem\] {
-    max-width: 25rem;
-  }
-
   .md\:max-w-\[30rem\] {
     max-width: 30rem;
   }
@@ -1045,17 +1022,9 @@ header{
     max-width: 40rem;
   }
 
-  .md\:max-w-full {
-    max-width: 100%;
-  }
-
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .md\:leading-\[5rem\] {
-    line-height: 5rem;
   }
 
   .md\:leading-\[5\.5rem\] {
