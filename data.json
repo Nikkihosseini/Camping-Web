@@ -1,0 +1,74 @@
+[
+    {
+    "name": "Trickle Creek Ranch",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 36,
+    "img": "./Images/images/image1.jpg"
+    },
+    {
+    "name": "Dragonfly Tiny Cabin",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 50,
+    "img": "./Images/images/image2.jpg"
+    },
+    {
+    "name": "Tiny Cabin in the mountains",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 38,
+    "img": "./Images/images/image3.jpg"
+    },
+    {
+    "name": "The Stuga",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 40,
+    "img": "./Images/images/image4.jpg"
+    },
+    {
+    "name": "Luxury Tiny Beach Cabin",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 51,
+    "img": "./Images/images/image5.jpg"
+    },
+    {
+    "name": "The Summit Cabin",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 45,
+    "img": "./Images/images/image6.jpg"
+    },
+    {
+    "name": "Kindred Spirits Cabin",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 35,
+    "img": "./Images/images/image7.jpg"
+    },
+    {
+    "name": "The Hermitage Cabin",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 33,
+    "img": "./Images/images/image8.jpg"
+    },
+    {
+    "name": "Red Lifeguard Stand",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 39,
+    "img": "./Images/images/image9.jpg"
+    },
+    {
+    "name": "The Tree House",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 48,
+    "img": "./Images/images/image10.jpg"
+    },
+    {
+    "name": "Barrier island elevated tent",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 55,
+    "img": "./Images/images/image11.jpg"
+    },
+    {
+    "name": "Ninovan on the Shore",
+    "description": "Book unique camping experiences on over 300,000 campsites.",
+    "peice": 36,
+    "img": "./Images/images/image12.jpg"
+    }
+]
