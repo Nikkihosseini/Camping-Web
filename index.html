@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./Images/images/icon.png">
     <link rel="stylesheet" href="./slyles/app.css">
+    <link rel="stylesheet" href="./slyles/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Camping Web</title>
 </head>
 <body class="font-RobotoRegular text-Zinc-960 bg-pink-150">
@@ -29,9 +31,10 @@
        <symbol id="send" xmlns="http://www.w3.org/2000/svg" width="24.162" height="18.23" viewBox="0 0 24.162 18.23">
            <path id="Path_909" data-name="Path 909" d="M9.778,15.82,6.954,17.7a.55.55,0,0,1-.816-.439V13.121l11.546-8.66L3.88,11.8.3,9.356A.748.748,0,0,1,.491,8.039L23.709-.37c.314-.126.565.251.377.565L13.606,17.514a.773.773,0,0,1-1.067.188Z" transform="translate(0.012 0.395)" fill="#fff" fill-rule="evenodd"/>
        </symbol>
-       <symbol id="filled-heart" xmlns="http://www.w3.org/2000/svg" width="24.037" height="24.037" viewBox="0 0 24.037 24.037">
-           <path id="Path_955" data-name="Path 955" d="M15.822,8.979v.029H4V-2.1A5.915,5.915,0,0,1,9.912-7.841a5.913,5.913,0,0,1,5.849,5.049,5.912,5.912,0,0,1,.061,11.772Z" transform="translate(2.716 20.496) rotate(-45)" fill="#e76f51"/>
-       </symbol>
+       <symbol id="heart-stroke" xmlns="http://www.w3.org/2000/svg" width="24.037" height="24.037" viewBox="0 0 24.037 24.037">
+        <path id="Path_955" data-name="Path 955" d="M15.822,8.979v.029H4V-2.1A5.915,5.915,0,0,1,9.912-7.841a5.913,5.913,0,0,1,5.849,5.049,5.912,5.912,0,0,1,.061,11.772ZM14.346-1.314v-.679l-.005-.158A4.434,4.434,0,0,0,9.912-6.363,4.433,4.433,0,0,0,5.478-2.077V7.53h8.87V7.507l.821.023h.064a4.434,4.434,0,0,0,.007-8.868h-.083l-.132,0-.66.036v-.017Z" transform="translate(2.716 20.496) rotate(-45)" fill="#e76f51"/>
+      </symbol>
+      
 
        <!--   Svgs   -->
        <symbol id="destination" xmlns="http://www.w3.org/2000/svg" width="89.235" height="89.316" viewBox="0 0 89.235 89.316"><g transform="translate(-915 -2018)"><circle cx="35" cy="35" r="35" transform="translate(925 2028)" fill="#e76f51"/><g transform="translate(914.767 2018)"><g transform="translate(0.233 26.847)">
@@ -192,17 +195,17 @@
           </section>
           <section class="destinations mb-60">
 
-              <div class="destinations-wrapper flex-center justify-center flex-col gap-8  mx-auto">
+              <div class="flex-center justify-center flex-col gap-8  mx-auto">
                   <svg class="w-[89.235px] h-[89.316px]">
                       <use href="#destination"></use>
                   </svg>
                   <h2 class="font-ArchivoBlack text-4xl text-center max-w-[417px;] leading-[3.5rem]">Explore Destinations & Activities</h2>
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                  <div class="bg-white flex-center justify-center flex-col text-center p-10 rounded-2xl">
+              <div class="destinations-wrapper grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14">
+                  <!-- <div class="bg-white flex-center justify-center flex-col text-center p-10 rounded-2xl">
                       <div class=" relative w-[277px] h-[180px] rounded-2xl overflow-hidden z-0">
-                          <img class="w-full h-full" src="./Images/images/image1.jpg">
+                          <img class="w-full h-full" src="./Images/images/image1.jpg" alt="picture">
                           <span class="flex-center justify-center w-10 h-10 bg-white rounded-xl absolute top-[20px] right-[20px] z-10">
                               <svg class="w-[24.037px] h-[24.037px]">
                                   <use href="#filled-heart"></use>
@@ -215,7 +218,7 @@
                       <h3 class="font-ArchivoBlack text-lg line-clamp-1 mt-10 mb-2">Trickle Creek Ranch</h3>
                       <p class="font-RobotoMedium line-clamp-2">Book unique camping experiences on over 300,000 campsites.</p>
                       <a class="font-RobotoMedium bg-gray-130 text-gray-110 py-3 px-10 rounded-full mt-6">Read More</a>
-                  </div>
+                  </div> -->
 
               </div>
 
@@ -226,6 +229,7 @@
     
 
 
-    <script src="./script/app.js"></script>
+   <script src="./script/app.js"></script>
+   <script src="./script/all.min.js"></script>
 </body>
 </html>
