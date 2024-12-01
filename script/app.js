@@ -49,7 +49,9 @@ function addDataToHtml(){
                       <div class=" relative max-w-[277px] max-h-[180px] rounded-2xl overflow-hidden z-0">
                           <img class="w-full h-full" src="${data.img}" alt="picture">
                           <span class="flex-center justify-center w-10 h-10 bg-white rounded-xl absolute top-[20px] right-[20px] z-10">
-                          <i class="fa-regular fa-heart fa-lg text-orange-750 cursor-pointer"></i>
+                            <svg onclick="likedPlace(event)" class="w-6 h-6 cursor-pointer">
+                                <use onclick="likedPlaceSvg(event)" href="#heart-stroke"></use>
+                            </svg>
                           </span>
                           <span class="font-RobotoMedium flex-center justify-center bg-white text-orange-750 w-32 h-10 rounded-xl absolute -bottom-[10px] left-0 right-0 mx-auto z-10">
                              $${data.price}/night
@@ -62,4 +64,44 @@ function addDataToHtml(){
         })
     }
 }
+
+
+function likedPlace(event){
+   let likeSvg = event.target.firstElementChild
+   let svgHref = likeSvg.getAttribute('href')
+
+    if(svgHref === '#heart-stroke'){
+        likeSvg.setAttribute('href' , '#heart')
+        saveLikeTolocalStorage("like" , "#heart")
+    } else {
+        likeSvg.setAttribute('href' , '#heart-stroke')
+        saveLikeTolocalStorage("like" , "#heart-stroke")
+    }
+}
+
+
+function likedPlaceSvg(event){
+    let likeSvg = event.target
+    let svgHref = likeSvg.getAttribute('href')
+
+    if(svgHref === '#heart-stroke'){
+        likeSvg.setAttribute('href' , '#heart')
+        saveLikeTolocalStorage("like" , "#heart")
+    } else {
+        likeSvg.setAttribute('href' , '#heart-stroke')
+        saveLikeTolocalStorage("like" , "#heart-stroke")
+    }
+}
+
+// if(getLocalStorage("like") === "#heart-stroke"){
+//
+// }
+//
+// function saveLikeTolocalStorage(key, value){
+//     localStorage.setItem(key, value);
+// }
+// function getLocalStorage(key) {
+//     localStorage.getItem(key);
+// }
+// getLocalStorage("like")
 
