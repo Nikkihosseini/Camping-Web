@@ -1,74 +1,86 @@
 [
     {
+    "id": 1,
     "name": "Trickle Creek Ranch",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 36,
+    "price": 36,
     "img": "./Images/images/image1.jpg"
     },
     {
+    "id": 2,
     "name": "Dragonfly Tiny Cabin",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 50,
+    "price": 50,
     "img": "./Images/images/image2.jpg"
     },
     {
+    "id": 3,
     "name": "Tiny Cabin in the mountains",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 38,
+    "price": 38,
     "img": "./Images/images/image3.jpg"
     },
     {
+    "id": 4,
     "name": "The Stuga",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 40,
+    "price": 40,
     "img": "./Images/images/image4.jpg"
     },
     {
+    "id": 5,
     "name": "Luxury Tiny Beach Cabin",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 51,
+    "price": 51,
     "img": "./Images/images/image5.jpg"
     },
     {
+    "id": 6,
     "name": "The Summit Cabin",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 45,
+    "price": 45,
     "img": "./Images/images/image6.jpg"
     },
     {
+    "id": 7,
     "name": "Kindred Spirits Cabin",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 35,
+    "price": 35,
     "img": "./Images/images/image7.jpg"
     },
     {
+    "id": 8,
     "name": "The Hermitage Cabin",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 33,
+    "price": 33,
     "img": "./Images/images/image8.jpg"
     },
     {
+    "id": 9,
     "name": "Red Lifeguard Stand",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 39,
+    "price": 39,
     "img": "./Images/images/image9.jpg"
     },
     {
+    "id": 10,
     "name": "The Tree House",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 48,
+    "price": 48,
     "img": "./Images/images/image10.jpg"
     },
     {
+    "id": 11,
     "name": "Barrier island elevated tent",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 55,
+    "price": 55,
     "img": "./Images/images/image11.jpg"
     },
     {
+    "id": 12,
     "name": "Ninovan on the Shore",
     "description": "Book unique camping experiences on over 300,000 campsites.",
-    "peice": 36,
+    "price": 36,
     "img": "./Images/images/image12.jpg"
     }
 ]
