@@ -57,9 +57,9 @@ function addDataToHtml(){
                              $${data.price}/night
                           </span>
                       </div>
-                      <h3 class="font-ArchivoBlack text-lg line-clamp-1 mt-10 mb-2">${data.name}</h3>
+                      <h3 class="font-ArchivoBlack text-base md:text-lg line-clamp-1 mt-10 mb-2">${data.name}</h3>
                       <p class="font-RobotoMedium line-clamp-2">${data.description}</p>
-                      <a class="font-RobotoMedium bg-gray-130 text-gray-110 py-3 px-10 rounded-full mt-6 cursor-pointer">Read More</a>
+                      <a class="font-RobotoMedium bg-gray-130 text-gray-110 py-2 px-8 md:py-3 md:px-10 rounded-full mt-6 cursor-pointer">Read More</a>
                   </div>`)
         })
     }
