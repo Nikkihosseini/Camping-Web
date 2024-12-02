@@ -45,10 +45,10 @@ function addDataToHtml(){
             const destinationsWrapperElem = $.querySelector('.destinations-wrapper')
 
             destinationsWrapperElem.insertAdjacentHTML('beforeend' , `
-              <div id="${data.id}" class="bg-white flex-center justify-center flex-col text-center p-6 rounded-2xl">
+              <div id="${data.id}" class="bg-white flex-center justify-center flex-col text-center p-4 sm:p-3 lg:p-6 rounded-2xl">
                       <div class=" relative max-w-[277px] max-h-[180px] rounded-2xl overflow-hidden z-0">
                           <img class="w-full h-full" src="${data.img}" alt="picture">
-                          <span class="flex-center justify-center w-10 h-10 bg-white rounded-xl absolute top-[20px] right-[20px] z-10">
+                          <span class="flex-center justify-center w-9 h-9 md:w-10 md:h-10 bg-white rounded-xl absolute top-[10px] right-[10px] md:top-[20px] md:right-[20px] z-10">
                             <svg onclick="likedPlace(event)" class="w-6 h-6 cursor-pointer">
                                 <use onclick="likedPlaceSvg(event)" href="#heart-stroke"></use>
                             </svg>
@@ -59,7 +59,7 @@ function addDataToHtml(){
                       </div>
                       <h3 class="font-ArchivoBlack text-base md:text-lg line-clamp-1 mt-10 mb-2">${data.name}</h3>
                       <p class="font-RobotoMedium line-clamp-2">${data.description}</p>
-                      <a class="font-RobotoMedium bg-gray-130 text-gray-110 py-2 px-8 md:py-3 md:px-10 rounded-full mt-6 cursor-pointer">Read More</a>
+                      <a class="font-RobotoMedium bg-gray-130 text-gray-110 py-2 px-8 lg:py-3 lg:px-10 rounded-full mt-6 cursor-pointer">Read More</a>
                   </div>`)
         })
     }
