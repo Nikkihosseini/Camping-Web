@@ -672,12 +672,20 @@ video {
   left: 0px;
 }
 
+.left-\[25px\] {
+  left: 25px;
+}
+
 .right-0 {
   right: 0px;
 }
 
 .right-\[10px\] {
   right: 10px;
+}
+
+.right-\[144px\] {
+  right: 144px;
 }
 
 .right-\[20px\] {
@@ -696,20 +704,20 @@ video {
   top: 20px;
 }
 
-.right-\[144px\] {
-  right: 144px;
+.top-\[23px\] {
+  top: 23px;
 }
 
 .top-\[9px\] {
   top: 9px;
 }
 
-.left-\[25px\] {
-  left: 25px;
+.-left-\[199px\] {
+  left: -199px;
 }
 
-.top-\[23px\] {
-  top: 23px;
+.-top-\[402px\] {
+  top: -402px;
 }
 
 .z-0 {
@@ -735,6 +743,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-40 {
@@ -775,18 +787,6 @@ video {
 
 .mt-\[-32rem\] {
   margin-top: -32rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .line-clamp-1 {
@@ -838,6 +838,10 @@ video {
   height: 2.75rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -846,8 +850,8 @@ video {
   height: 2.25rem;
 }
 
-.h-\[18\.23\] {
-  height: 18.23;
+.h-\[18\.23px\] {
+  height: 18.23px;
 }
 
 .h-\[180px\] {
@@ -866,6 +870,10 @@ video {
   height: 50px;
 }
 
+.h-\[50rem\] {
+  height: 50rem;
+}
+
 .h-\[77\.73px\] {
   height: 77.73px;
 }
@@ -882,28 +890,16 @@ video {
   height: 100%;
 }
 
-.h-\[18\.23px\] {
-  height: 18.23px;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
 .max-h-\[180px\] {
   max-height: 180px;
 }
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-32 {
@@ -934,20 +930,36 @@ video {
   width: 24.037px;
 }
 
-.w-\[24\.162\] {
-  width: 24.162;
+.w-\[24\.162px\] {
+  width: 24.162px;
 }
 
 .w-\[277px\] {
   width: 277px;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .w-\[50px\] {
   width: 50px;
 }
 
+.w-\[50rem\] {
+  width: 50rem;
+}
+
 .w-\[59\.74px\] {
   width: 59.74px;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-\[81\.72px\] {
@@ -960,38 +972,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[24\.162px\] {
-  width: 24.162px;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .max-w-80 {
@@ -1016,14 +996,6 @@ video {
 
 .grow {
   flex-grow: 1;
-}
-
-.basis-1\/3 {
-  flex-basis: 33.333333%;
-}
-
-.basis-2\/3 {
-  flex-basis: 66.666667%;
 }
 
 .rotate-180 {
@@ -1070,18 +1042,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-2\.5 {
-  gap: 0.625rem;
 }
 
 .overflow-hidden {
@@ -1190,6 +1150,11 @@ video {
   padding-right: 6rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1215,52 +1180,26 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.pt-8 {
+.py-8 {
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .pr-3 {
   padding-right: 0.75rem;
 }
 
-.pr-3\.5 {
-  padding-right: 0.875rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
-}
-
-.pl-16 {
-  padding-left: 4rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1441,6 +1380,32 @@ header{
   z-index: -1;
   transform: translateY(8px) rotate(45deg);
 }
+
+/*.newsletter-wrapper::before{*/
+
+/*    content: '';*/
+
+/*    position: absolute;*/
+
+/*    background-image: url("../Public/Images/images/shape1.svg");*/
+
+/*    background-repeat: no-repeat;*/
+
+/*    background-size: contain;*/
+
+/*    top: -4rem;*/
+
+/*    bottom: 0;*/
+
+/*    right: 0;*/
+
+/*    left: -1rem;*/
+
+/*    width: 50rem;*/
+
+/*    height: 50rem;*/
+
+/*}*/
 
 @media (min-width: 768px){
   header{
