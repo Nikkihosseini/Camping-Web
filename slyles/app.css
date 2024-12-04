@@ -664,6 +664,10 @@ video {
   left: -16rem;
 }
 
+.-top-5 {
+  top: -1.25rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -718,22 +722,6 @@ video {
 
 .top-\[9px\] {
   top: 9px;
-}
-
-.right-\[197px\] {
-  right: 197px;
-}
-
-.top-\[-24px\] {
-  top: -24px;
-}
-
-.-top-5 {
-  top: -1.25rem;
-}
-
-.right-\[168px\] {
-  right: 168px;
 }
 
 .z-0 {
@@ -871,6 +859,10 @@ video {
   height: 1.5rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .h-9 {
   height: 2.25rem;
 }
@@ -917,18 +909,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .max-h-\[180px\] {
@@ -1113,31 +1093,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-t-full {
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-}
-
-.rounded-t-3xl {
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-}
-
-.rounded-t-\[200px\] {
-  border-top-left-radius: 200px;
-  border-top-right-radius: 200px;
-}
-
-.rounded-t-\[150px\] {
-  border-top-left-radius: 150px;
-  border-top-right-radius: 150px;
-}
-
-.rounded-t-\[180px\] {
-  border-top-left-radius: 180px;
-  border-top-right-radius: 180px;
-}
-
 .rounded-t-\[100px\] {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
@@ -1211,8 +1166,16 @@ video {
   padding: 1rem;
 }
 
+.p-48 {
+  padding: 12rem;
+}
+
 .p-8 {
   padding: 2rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .px-10 {
@@ -1258,6 +1221,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pl-10 {
@@ -1364,12 +1332,6 @@ video {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-md {
@@ -1783,16 +1745,16 @@ header{
     left: -199px;
   }
 
+  .xl\:left-auto {
+    left: auto;
+  }
+
   .xl\:right-\[124px\] {
     right: 124px;
   }
 
   .xl\:right-\[168px\] {
     right: 168px;
-  }
-
-  .xl\:left-auto {
-    left: auto;
   }
 
   .xl\:ml-10 {
